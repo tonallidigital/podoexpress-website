@@ -7,10 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Podoexpress | Cuidamos lo que te mueve</title>
   <meta name="description"
-    content="Clínica de podología en CDMX. Tratamientos profesionales para uñas encarnadas, callosidades, hongos, pie de atleta y más. Agenda tu cita en Podoexpress.">
+    content="Clínica de podología en CDMX con especialistas certificados. Tratamientos para uñas encarnadas, hongos, pie diabético, láser antimicótico y bienestar integral para tus pies.">
   <meta name="keywords"
-    content="podología CDMX, uñas encarnadas, podólogo Roma Norte, tratamiento de hongos en uñas, podoexpress, clínica de pies, podología profesional, podología estética">
+    content="podología CDMX, podólogo Roma Norte, podólogo especializado, tratamiento de uñas encarnadas CDMX, láser para hongos en uñas, pie diabético, clínica podológica profesional, bienestar de los pies">
   <meta name="author" content="Podoexpress">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="theme-color" content="#58dec8">
+  <meta name="geo.region" content="MX-CMX">
+  <meta name="geo.placename" content="Roma Norte, Ciudad de México">
+  <meta name="geo.position" content="19.4183165;-99.1568898">
+  <meta name="ICBM" content="19.4183165, -99.1568898">
 
   <!-- Favicon -->
   <link rel="icon" href="assets/img/favicon.png" type="image/png">
@@ -18,6 +25,8 @@
 
   <!-- Canonical -->
   <link rel="canonical" href="https://podoexpress.com/">
+  <link rel="alternate" href="https://podoexpress.com/" hreflang="es-mx">
+  <link rel="alternate" href="https://podoexpress.com/" hreflang="es">
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -27,6 +36,9 @@
   <meta property="og:image" content="https://podoexpress.com/assets/img/og-podoexpress.jpg">
   <meta property="og:url" content="https://podoexpress.com/">
   <meta property="og:site_name" content="Podoexpress">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:image:alt" content="Tratamiento podológico profesional en Podoexpress">
+  <meta property="og:updated_time" content="2024-01-01T12:00:00-06:00">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
@@ -34,6 +46,8 @@
   <meta name="twitter:description"
     content="Podología profesional en CDMX. Cuidado avanzado de tus pies con especialistas certificados.">
   <meta name="twitter:image" content="https://podoexpress.com/assets/img/og-podoexpress.jpg">
+  <meta name="twitter:image:alt" content="Clínica podológica Podoexpress en Ciudad de México">
+  <meta name="twitter:site" content="@podoexpress">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,10 +72,18 @@
   {
     "@context": "https://schema.org",
     "@type": "MedicalClinic",
+    "@id": "https://podoexpress.com/#clinic",
     "name": "Podoexpress",
     "image": "https://podoexpress.com/assets/img/og-podoexpress.jpg",
     "url": "https://podoexpress.com/",
+    "priceRange": "$$",
     "telephone": "+52 56 3422 4876",
+    "medicalSpecialty": [
+      "Podiatric",
+      "DiabeticCare",
+      "PreventiveCare"
+    ],
+    "description": "Clínica de podología en la Roma Norte con tratamientos para uñas encarnadas, hongos, pie diabético y bienestar integral.",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Medellín 27, Roma Norte",
@@ -70,13 +92,127 @@
       "postalCode": "06700",
       "addressCountry": "MX"
     },
-    "description": "Clínica de podología en CDMX con tratamientos profesionales para el cuidado de tus pies.",
-    "openingHours": "Mo-Sa 10:00-20:00"
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 19.4183165,
+      "longitude": -99.1568898
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Ciudad de México"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "10:00",
+        "closes": "20:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/podoexpress",
+      "https://www.instagram.com/podoexpress",
+      "https://www.tiktok.com/@podoexpress",
+      "https://wa.me/5215634224876"
+    ],
+    "hasMap": "https://maps.google.com/?cid=3078231912217278637",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "telephone": "+52 56 3422 4876",
+      "areaServed": "MX",
+      "availableLanguage": ["Spanish"]
+    },
+    "makesOffer": [
+      {
+        "@type": "Offer",
+        "name": "Tratamiento integral de podología",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Servicio integral de podología",
+          "description": "Evaluación, limpieza profunda, hidratación y masaje podal personalizado."
+        }
+      },
+      {
+        "@type": "Offer",
+        "name": "Tratamiento láser antimicótico",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Láser para hongos en uñas",
+          "description": "Tecnología láser para eliminar onicomicosis en 4 a 6 sesiones."
+        }
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "180"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cómo es un tratamiento de uñas encarnadas en Podoexpress?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Comenzamos con una valoración podológica completa, desinfectamos el área, liberamos la uña con técnicas indoloras y aplicamos curación especializada para evitar recurrencias."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Qué beneficios tiene el láser antimicótico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El láser elimina hongos en uñas sin dolor, acelera la recuperación y permite retomar actividades al instante. Se complementa con cultivo y seguimiento personalizado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Atienden a pacientes con pie diabético?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Contamos con protocolos de prevención, limpiezas suaves, monitoreo de la piel y educación para el cuidado diario de los pies diabéticos."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Inicio",
+        "item": "https://podoexpress.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Servicios",
+        "item": "https://podoexpress.com/#services"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Tratamiento Láser",
+        "item": "https://podoexpress.com/#laser"
+      }
+    ]
   }
   </script>
 
   <!-- Preload imágenes clave -->
-  <link rel="preload" as="image" href="assets/img/hero-bg.mp4">
+  <link rel="preload" as="video" href="assets/img/hero-bg.mp4" type="video/mp4">
   <link rel="preload" as="image" href="assets/img/Logo-Podoexpress.png">
 </head>
 
@@ -97,8 +233,10 @@
           <ul>
             <li><a href="#hero" class="active">Inicio</a></li>
             <li><a href="#services">Servicios</a></li>
+            <li><a href="#about">Nosotros</a></li>
             <li><a href="#laser">Tratamiento Láser</a></li>
-            <li><a href="#about">Conócenos</a></li>
+            <li><a href="#results">Resultados</a></li>
+            <li><a href="#insights">Blog &amp; tips</a></li>
             <li><a href="#contact">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -113,25 +251,105 @@
 
   <main class="main">
 
-    <!-- BANNER 1 -->
+    <!-- Hero Section -->
     <section id="hero" class="hero section">
-      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000"
-        data-bs-pause="false">
-        <div class="carousel-item active">
-          <!-- Video de fondo en lugar de imagen -->
-          <div class="video-container">
-            <video autoplay muted loop playsinline class="video-background">
-              <source src="assets/img/hero-bg.mp4" type="video/mp4">
-            </video>
+      <div class="video-container">
+        <video autoplay muted loop playsinline class="video-background" poster="assets/img/gallery/gallery-1.jpg"
+          aria-hidden="true">
+          <source src="assets/img/hero-bg.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="container position-relative">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-lg-7" data-aos="fade-up">
+            <span class="hero-eyebrow">Clínica de podología avanzada en CDMX</span>
+            <h1>Pies saludables, postura correcta y bienestar integral</h1>
+            <p class="hero-lead">Combinamos diagnóstico médico, tecnología láser antimicótica y protocolos de spa
+              clínico para recuperar la salud de tus pies en menos sesiones.</p>
+
+            <ul class="hero-badges list-unstyled d-flex flex-wrap gap-2">
+              <li><i class="bi bi-patch-check"></i> Podólogos certificados COFEPRIS</li>
+              <li><i class="bi bi-heart-pulse"></i> Protocolos esterilizados</li>
+              <li><i class="bi bi-stars"></i> 4.9★ en reseñas verificadas</li>
+            </ul>
+
+            <div class="hero-cta d-flex flex-wrap align-items-center gap-3">
+              <a href="#appointment" class="btn btn-get-started">Agenda tu valoración</a>
+              <a href="https://wa.me/5215634224876" class="btn btn-outline-light" target="_blank" rel="noopener"
+                aria-label="Escríbenos por WhatsApp">
+                <i class="bi bi-whatsapp"></i> Consultoría express
+              </a>
+              <a href="tel:+525634224876" class="hero-phone">
+                <i class="bi bi-telephone"></i> +52 56 3422 4876
+              </a>
+            </div>
+
+            <div class="hero-proof d-flex flex-wrap align-items-center gap-4 mt-4">
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-geo-alt"></i>
+                <span>Roma Norte · A 5 min. del Metrobús Álvaro Obregón</span>
+              </div>
+              <div class="d-flex align-items-center gap-2">
+                <i class="bi bi-clock-history"></i>
+                <span>Horarios extendidos de lunes a sábado</span>
+              </div>
+            </div>
           </div>
-          <!-- Texto y botón -->
-          <div class="carousel-caption d-flex justify-content-center align-items-center">
-            <div class="hero-text text-center">
-              <h2 style="color: #58dec8; ">Pies sanos en manos expertas</h2>
-              <p style="color: #5d5d5d; margin-top: 16px; ">Con nuestro equipo especializado, cada tratamiento está
-                diseñado para tu bienestar y comodidad.</p>
-              <div class="d-flex flex-column align-items-center justify-content-center gap-2">
-                <a href="#about" class="btn btn-get-started">Agenda una Cita</a>
+
+          <div class="col-lg-4 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
+            <div class="hero-card">
+              <h2>Resultados medibles</h2>
+              <ul class="list-unstyled hero-metrics">
+                <li>
+                  <span class="metric-value" data-purecounter-start="0" data-purecounter-end="680"
+                    data-purecounter-duration="2">680</span>
+                  <span class="metric-label">pacientes atendidos cada año</span>
+                </li>
+                <li>
+                  <span class="metric-value" data-purecounter-start="0" data-purecounter-end="96"
+                    data-purecounter-duration="2">96</span>
+                  <span class="metric-label">% de efectividad en hongos</span>
+                </li>
+                <li>
+                  <span class="metric-value" data-purecounter-start="0" data-purecounter-end="72"
+                    data-purecounter-duration="2">72</span>
+                  <span class="metric-label">horas promedio de recuperación</span>
+                </li>
+              </ul>
+              <p class="hero-card-note">Incluimos guía de autocuidado, kit profesional y seguimiento digital.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Trusted Section -->
+    <section id="trust" class="trusted section light-background">
+      <div class="container" data-aos="fade-up">
+        <div class="row gy-4 align-items-center justify-content-between">
+          <div class="col-lg-5">
+            <h2>Más de 12 años cuidando la salud de los pies en CDMX</h2>
+            <p>Somos referencia en podología clínica gracias a nuestros protocolos de bioseguridad, personal
+              especializado y resultados comprobables.</p>
+          </div>
+          <div class="col-lg-6">
+            <div class="trusted-grid">
+              <div class="trusted-item">
+                <i class="bi bi-award"></i>
+                <span>Miembros de la Asociación Mexicana de Podología</span>
+              </div>
+              <div class="trusted-item">
+                <i class="bi bi-shield-check"></i>
+                <span>Esterilización por autoclave clase B</span>
+              </div>
+              <div class="trusted-item">
+                <i class="bi bi-people"></i>
+                <span>Atención a deportistas, adultos mayores y pacientes con diabetes</span>
+              </div>
+              <div class="trusted-item">
+                <i class="bi bi-stars"></i>
+                <span>Planes corporativos para spas, gimnasios y clínicas aliadas</span>
               </div>
             </div>
           </div>
@@ -139,106 +357,273 @@
       </div>
     </section>
 
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Paquetes diseñados para cada necesidad</h2>
+          <p>Elige el plan que mejor se adapta a tus objetivos. Todos incluyen bioseguridad certificada, productos
+            profesionales y seguimiento personalizado.</p>
+        </div>
 
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-card">
+              <span class="pricing-badge">Popular</span>
+              <h3>Reinicio Podal</h3>
+              <p class="pricing-price">$990 <span>por sesión</span></p>
+              <ul>
+                <li>Valoración clínica + spa podológico</li>
+                <li>Deslaminado de callos y masaje de reflexología</li>
+                <li>Kit dermocosmético de mantenimiento</li>
+              </ul>
+              <a href="#appointment" class="btn btn-outline-primary">Reservar paquete</a>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-card pricing-card-featured">
+              <span class="pricing-badge">Recomendado</span>
+              <h3>Control Láser</h3>
+              <p class="pricing-price">$6,900 <span>6 sesiones</span></p>
+              <ul>
+                <li>Tratamiento láser antimicótico</li>
+                <li>Cultivo y laboratorio inicial</li>
+                <li>Seguimiento digital por 3 meses</li>
+              </ul>
+              <a href="#appointment" class="btn btn-get-started">Solicitar evaluación</a>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card">
+              <span class="pricing-badge">Empresarial</span>
+              <h3>Wellness Corporativo</h3>
+              <p class="pricing-price">Desde $8,500 <span>mensuales</span></p>
+              <ul>
+                <li>Atención a equipos deportivos o empresas</li>
+                <li>Cabina móvil en tu locación</li>
+                <li>Reportes de bienestar y talleres educativos</li>
+              </ul>
+              <a href="mailto:contacto@podoexpress.com?subject=Programa%20corporativo" class="btn btn-outline-primary">Pedir
+                propuesta</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <style>
-      /* Cambiar a blanco cuando el mouse está encima */
-      .service-item:hover h4 a,
-      .service-item:hover p {
-        color: white !important;
-      }
-    </style>
+    <!-- Advantages Section -->
+    <section id="ventajas" class="advantages section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>¿Por qué elegir Podoexpress?</h2>
+          <p>Diseñamos experiencias superiores para superar a cualquier clínica de podología en México.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="advantage-card">
+              <i class="bi bi-layers"></i>
+              <h3>Protocolos 360°</h3>
+              <p>Integramos análisis biomecánico, láser y cosmetología podal para resultados más rápidos.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="advantage-card">
+              <i class="bi bi-phone"></i>
+              <h3>Seguimiento digital</h3>
+              <p>Recibe recordatorios automáticos, fotografías comparativas y ajustes de tratamiento en línea.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="advantage-card">
+              <i class="bi bi-emoji-smile"></i>
+              <h3>Experiencia confortable</h3>
+              <p>Cabinas privadas con aromaterapia, música funcional y sillones memory foam.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="advantage-card">
+              <i class="bi bi-hospital"></i>
+              <h3>Equipo médico aliado</h3>
+              <p>Red de especialistas en traumatología, nutrición y fisioterapia para casos complejos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-media">
+              <img src="assets/img/about.jpg" class="img-fluid rounded-4" alt="Especialistas de Podoexpress atendiendo a un paciente"
+                loading="lazy">
+              <div class="about-badge">
+                <strong>+40</strong>
+                <span>protocolos diseñados por médicos podólogos</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="150">
+            <span class="section-eyebrow">Conócenos</span>
+            <h2>Equipo multidisciplinario que entiende la importancia de tus pies</h2>
+            <p>Unimos conocimientos de podología clínica, fisioterapia y estética para crear experiencias de tratamiento que
+              alivien molestias, corrijan la postura y eleven tu calidad de vida.</p>
+            <ul class="about-list">
+              <li><i class="bi bi-check-circle"></i> Cabinas privadas con sillones ergonómicos de grado médico.</li>
+              <li><i class="bi bi-check-circle"></i> Expediente digital, fotografías de progreso y recordatorios de citas.</li>
+              <li><i class="bi bi-check-circle"></i> Productos dermocosméticos hipoalergénicos incluidos en cada sesión.</li>
+            </ul>
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="service-details.html" class="btn btn-get-started">Explora todos los tratamientos</a>
+              <a href="#results" class="btn btn-outline-primary">Ver resultados reales</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Services Section -->
-    <section id="servicios" class="services section">
+    <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Servicios</h2>
-        <p>Tratamientos podológicos profesionales diseñados para cuidar tus pies y tu bienestar.</p>
+        <h2>Servicios de Podología Clínica</h2>
+        <p>Tratamientos personalizados para aliviar molestias, prevenir lesiones y mejorar la biomecánica de tus pies.</p>
       </div>
 
       <div class="container">
         <div class="row gy-4">
 
           <!-- Servicio 1 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="service-item h-100">
               <div class="image-container">
-                <img src="assets/img/og-podoexpress.jpg" alt="Servicio Integral de Podología" class="img-fluid">
+                <img src="assets/img/departments-1.jpg" alt="Servicio integral de podología clínica" class="img-fluid"
+                  loading="lazy">
               </div>
-              <a href="spp.html" class="stretched-link">
-                <h3>Servicio Integral</h3>
-              </a>
-              <p>Evaluación completa, recorte de uñas, limpieza, pulido de plantas y masaje podal profesional.</p>
-            </div>
+              <div class="service-content">
+                <a href="spp.html" class="stretched-link">
+                  <h3>Servicio Integral</h3>
+                </a>
+                <p>Valoración completa, limpieza profunda, hidratación con dermoprotectores y masaje descontracturante para
+                  reactivar la circulación.</p>
+                <ul class="service-list">
+                  <li>Evaluación postural y de huella</li>
+                  <li>Deslaminado de callosidades con bisturí esterilizado</li>
+                  <li>Recomendaciones personalizadas de cuidado en casa</li>
+                </ul>
+              </div>
+            </article>
           </div>
 
           <!-- Servicio 2 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="service-item h-100">
               <div class="image-container">
-                <img src="assets/img/og-podoexpress.jpg" alt="Tratamiento de Uñas Encarnadas" class="img-fluid">
+                <img src="assets/img/departments-2.jpg" alt="Tratamiento profesional para uñas encarnadas" class="img-fluid"
+                  loading="lazy">
               </div>
-              <a href="spp.html" class="stretched-link">
-                <h3>Uñas Encarnadas</h3>
-              </a>
-              <p>Solución profesional para uñas encarnadas, con cuidado especializado para evitar infecciones y
-                molestias.</p>
-            </div>
+              <div class="service-content">
+                <a href="service-details.html#unas" class="stretched-link">
+                  <h3>Uñas Encarnadas</h3>
+                </a>
+                <p>Controlamos la inflamación, liberamos la lámina ungueal y aplicamos curaciones medicadas para evitar
+                  recaídas.</p>
+                <ul class="service-list">
+                  <li>Corrección ortonixia</li>
+                  <li>Vendajes protectores hipoalergénicos</li>
+                  <li>Guía digital de cuidados posteriores</li>
+                </ul>
+              </div>
+            </article>
           </div>
 
           <!-- Servicio 3 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article class="service-item h-100">
               <div class="image-container">
-                <img src="assets/img/og-podoexpress.jpg" alt="Tratamiento para Onicomicosis" class="img-fluid">
+                <img src="assets/img/departments-3.jpg" alt="Tratamiento para hongos en uñas y piel" class="img-fluid"
+                  loading="lazy">
               </div>
-              <a href="spp.html" class="stretched-link">
-                <h3>Tratamiento para Onicomicosis</h3>
-              </a>
-              <p>Control de hongos en uñas y piel, con métodos seguros y efectivos para tu salud podal.</p>
-            </div>
+              <div class="service-content">
+                <a href="service-details.html#laser" class="stretched-link">
+                  <h3>Onicomicosis Láser</h3>
+                </a>
+                <p>Eliminamos hongos con energía láser controlada y seguimiento clínico basado en cultivo microbiológico.</p>
+                <ul class="service-list">
+                  <li>Evaluación previa con dermatoscopio</li>
+                  <li>Sesiones de 20 minutos sin dolor</li>
+                  <li>Descuento en kits antimicóticos certificados</li>
+                </ul>
+              </div>
+            </article>
           </div>
 
           <!-- Servicio 4 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <article class="service-item h-100">
               <div class="image-container">
-                <img src="assets/img/og-podoexpress.jpg" alt="Limpieza y Cuidado de Callosidades" class="img-fluid">
+                <img src="assets/img/departments-4.jpg" alt="Tratamiento de callosidades y durezas" class="img-fluid"
+                  loading="lazy">
               </div>
-              <a href="spp.html" class="stretched-link">
-                <h3>Limpieza y Cuidado de Callosidades</h3>
-              </a>
-              <p>Remoción de callos y durezas, hidratación y masaje para mantener tus pies suaves y saludables.</p>
-            </div>
+              <div class="service-content">
+                <a href="service-details.html#callos" class="stretched-link">
+                  <h3>Callosidades &amp; Durezas</h3>
+                </a>
+                <p>Técnicas combinadas de fresado y exfoliación en seco para aliviar la presión y dejar la piel suave al
+                  instante.</p>
+                <ul class="service-list">
+                  <li>Hidratación con ácido hialurónico</li>
+                  <li>Parafina terapéutica opcional</li>
+                  <li>Educación sobre calzado y postura</li>
+                </ul>
+              </div>
+            </article>
           </div>
 
           <!-- Servicio 5 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <article class="service-item h-100">
               <div class="image-container">
-                <img src="assets/img/og-podoexpress.jpg" alt="Valoración de Pie Diabético" class="img-fluid">
+                <img src="assets/img/departments-5.jpg" alt="Atención especializada para pie diabético" class="img-fluid"
+                  loading="lazy">
               </div>
-              <a href="spp.html" class="stretched-link">
-                <h3>Valoración de Pie Diabético</h3>
-              </a>
-              <p>Chequeo especializado para pacientes con diabetes, prevención de lesiones y seguimiento personalizado.
-              </p>
-            </div>
+              <div class="service-content">
+                <a href="service-details.html#diabetico" class="stretched-link">
+                  <h3>Pie Diabético</h3>
+                </a>
+                <p>Prevención, control y curación de úlceras con tecnología de desbridación suave y monitoreo continuo.</p>
+                <ul class="service-list">
+                  <li>Valoración vascular y neurológica</li>
+                  <li>Planes de seguimiento mensual</li>
+                  <li>Educación integral para pacientes y familiares</li>
+                </ul>
+              </div>
+            </article>
           </div>
 
           <!-- Servicio 6 -->
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <article class="service-item h-100">
               <div class="image-container">
-                <img src="assets/img/og-podoexpress.jpg" alt="Tratamientos Láser" class="img-fluid">
+                <img src="assets/img/services.jpg" alt="Spa podológico y bienestar" class="img-fluid" loading="lazy">
               </div>
-              <a href="spp.html" class="stretched-link">
-                <h3>Tratamientos Láser</h3>
-              </a>
-              <p>Tratamiento láser para hongos y otras afecciones, seguro, indoloro y con resultados rápidos.</p>
-            </div>
+              <div class="service-content">
+                <a href="service-details.html#spa" class="stretched-link">
+                  <h3>SPA Podológico</h3>
+                </a>
+                <p>Experiencia sensorial que combina aromaterapia, reflexología y masaje profundo para relajar cuerpo y
+                  mente.</p>
+                <ul class="service-list">
+                  <li>Baño herbal desinflamante</li>
+                  <li>Masaje reflexológico de 30 minutos</li>
+                  <li>Recomendaciones de rutinas en casa</li>
+                </ul>
+              </div>
+            </article>
           </div>
         </div>
       </div>
@@ -283,22 +668,25 @@
       </section>  -->
 
 
-    <!-- Features Section -->
-    <section id="features" class="features section">
+    <!-- Laser Section -->
+    <section id="laser" class="features section dark-background">
 
       <div class="container">
         <div class="row justify-content-around gy-4">
 
           <!-- Imagen del lado izquierdo -->
           <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/features.jpg" alt="Tratamiento Láser de Podología" class="img-fluid">
+            <img src="assets/img/features.jpg" alt="Tratamiento Láser de Podología" class="img-fluid rounded-4"
+              loading="lazy">
           </div>
 
           <!-- Contenido de la derecha -->
           <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
-            <h3>Tratamiento Láser Profesional para Hongos en Uñas</h3>
-            <p>El tratamiento láser en Podoexpress es seguro, indoloro y altamente efectivo para eliminar hongos en uñas
-              y piel, cuidando tu salud podal y evitando recurrencias.</p>
+            <span class="section-eyebrow">Tecnología láser antimicótica</span>
+            <h2>Resultados clínicos que tu competencia no puede igualar</h2>
+            <p>Mientras otras clínicas se limitan a limar la superficie, en Podoexpress combinamos láser de última
+              generación con cultivo microbiológico, dermatoscopio digital y seguimiento híbrido (presencial + virtual).
+              Así eliminamos el hongo desde la raíz y evitamos que regrese.</p>
 
             <!-- Feature 1 -->
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
@@ -332,12 +720,17 @@
 
             <!-- Feature 4 -->
             <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="600">
-              <i class="a-solid fa-lungs flex-shrink-0"></i>
+              <i class="fa-solid fa-user-nurse flex-shrink-0"></i>
               <div>
                 <h4><a href="#" class="stretched-link">Seguimiento Personalizado</a></h4>
                 <p>Brindamos asesoría y seguimiento individual para asegurar que cada paciente cumpla con el cuidado
                   post-tratamiento y obtenga los mejores resultados.</p>
               </div>
+            </div>
+
+            <div class="d-flex flex-wrap gap-3 mt-4">
+              <a href="service-details.html#laser" class="btn btn-light">Ver protocolo completo</a>
+              <a href="#appointment" class="btn btn-outline-light">Cotiza tu paquete</a>
             </div>
 
           </div>
@@ -347,16 +740,60 @@
     </section>
     <!-- /Features Section -->
 
+    <!-- Process Section -->
+    <section id="proceso" class="process section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Tu ruta hacia pies libres de dolor</h2>
+          <p>Nuestro flujo de atención garantiza precisión clínica y una experiencia impecable desde la primera visita.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="process-step">
+              <span class="process-number">01</span>
+              <h3>Valoración avanzada</h3>
+              <p>Escáner plantar, historial médico y fotografías clínicas para definir el diagnóstico.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="process-step">
+              <span class="process-number">02</span>
+              <h3>Plan personalizado</h3>
+              <p>Seleccionamos la combinación exacta de técnicas, productos y frecuencia de sesiones.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="process-step">
+              <span class="process-number">03</span>
+              <h3>Tratamiento premium</h3>
+              <p>Aplicamos tecnología láser, instrumentación esterilizada y spa clínico sin dolor.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="process-step">
+              <span class="process-number">04</span>
+              <h3>Seguimiento inteligente</h3>
+              <p>Monitoreamos tu progreso vía app, teleconsulta y visitas de control cuando lo requieres.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section accent-background">
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>¿Listo para cuidar tus pies?</h3>
-              <p>Haz tu cita hoy y recibe un diagnóstico podológico completo. Confía en nuestros especialistas para el
-                tratamiento de tus pies y la eliminación de verrugas y hongos con nuestra avanzada tecnología láser.</p>
-              <a class="cta-btn" href="#appointment">Agenda tu cita</a>
+              <h2>Agenda hoy y estrena pasos sin dolor</h2>
+              <p>Obtén una valoración integral con podólogos certificados, recibe tu plan personalizado y comienza tu
+                recuperación en la misma sesión. Cupos limitados por cabina para garantizar la máxima higiene.</p>
+              <div class="d-flex flex-wrap gap-3 justify-content-center mt-4">
+                <a class="cta-btn" href="#appointment">Reservar cita</a>
+                <a class="cta-btn-secondary" href="tel:+525634224876"><i class="bi bi-telephone"></i> Llamar ahora</a>
+              </div>
             </div>
           </div>
         </div>
@@ -367,68 +804,78 @@
     <!-- Appointment Section -->
     <section id="appointment" class="appointment section light-background">
 
-      <!-- Appointment Section -->
-      <section id="appointment" class="appointment section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Agenda tu Cita</h2>
+        <p>Comparte tus datos y te contactaremos para confirmar horario, especialista y prepararte para tu experiencia en
+          Podoexpress.</p>
+      </div>
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Agenda tu Cita</h2>
-          <p>Rellena el formulario y uno de nuestros especialistas se pondrá en contacto contigo para confirmar tu cita.
-          </p>
-        </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" name="email" class="form-control" id="email" placeholder="Correo electrónico"
+                required>
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" name="phone" class="form-control" id="phone" placeholder="Teléfono" required>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="datetime-local" name="date" class="form-control datepicker" id="date" required>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="department" id="department" class="form-select" required>
+                <option value="">Selecciona el Servicio</option>
+                <option value="Tratamiento Integral">Tratamiento Integral</option>
+                <option value="Uñas Encarnadas">Uñas Encarnadas</option>
+                <option value="Tratamiento Láser">Tratamiento Láser</option>
+              </select>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="doctor" id="doctor" class="form-select" required>
+                <option value="">Selecciona el Podólogo</option>
+                <option value="Dra. Doris">Dra. Doris</option>
+                <option value="Dr. Juan">Dr. Juan</option>
+                <option value="Dr. Carlos">Dr. Carlos</option>
+              </select>
+            </div>
+          </div>
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-4 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nombre completo" required>
-              </div>
-              <div class="col-md-4 form-group mt-3 mt-md-0">
-                <input type="email" name="email" class="form-control" id="email" placeholder="Correo electrónico"
-                  required>
-              </div>
-              <div class="col-md-4 form-group mt-3 mt-md-0">
-                <input type="tel" name="phone" class="form-control" id="phone" placeholder="Teléfono" required>
+          <div class="row align-items-center mt-3 g-3">
+            <div class="col-lg-8">
+              <textarea name="message" class="form-control" rows="4"
+                placeholder="Cuéntanos síntomas, tiempo con la molestia o preferencias de horario"></textarea>
+            </div>
+            <div class="col-lg-4">
+              <div class="appointment-benefits">
+                <h3>Incluye sin costo:</h3>
+                <ul>
+                  <li>Diagnóstico digital con fotografías clínicas</li>
+                  <li>Guía descargable de cuidados en casa</li>
+                  <li>Recordatorio y ajuste de cita por WhatsApp</li>
+                </ul>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4 form-group mt-3">
-                <input type="datetime-local" name="date" class="form-control datepicker" id="date" required>
-              </div>
-              <div class="col-md-4 form-group mt-3">
-                <select name="department" id="department" class="form-select" required>
-                  <option value="">Selecciona el Servicio</option>
-                  <option value="Tratamiento Integral">Tratamiento Integral</option>
-                  <option value="Uñas Encarnadas">Uñas Encarnadas</option>
-                  <option value="Tratamiento Láser">Tratamiento Láser</option>
-                </select>
-              </div>
-              <div class="col-md-4 form-group mt-3">
-                <select name="doctor" id="doctor" class="form-select" required>
-                  <option value="">Selecciona el Podólogo</option>
-                  <option value="Dra. Doris">Dra. Doris</option>
-                  <option value="Dr. Juan">Dr. Juan</option>
-                  <option value="Dr. Carlos">Dr. Carlos</option>
-                </select>
-              </div>
-            </div>
+          </div>
 
-            <div class="form-group mt-3">
-              <textarea name="message" class="form-control" rows="5" placeholder="Mensaje (Opcional)"></textarea>
-            </div>
+          <div class="mt-4 text-center text-md-start">
+            <div class="loading">Cargando</div>
+            <div class="error-message"></div>
+            <div class="sent-message">¡Tu solicitud de cita ha sido enviada con éxito! Gracias.</div>
+            <button type="submit" class="btn btn-get-started">Enviar solicitud</button>
+          </div>
+        </form>
+      </div>
 
-            <div class="mt-3">
-              <div class="loading">Cargando</div>
-              <div class="error-message"></div>
-              <div class="sent-message">¡Tu solicitud de cita ha sido enviada con éxito! Gracias.</div>
-              <div class="text-center"><button type="submit">Enviar Cita</button></div>
-            </div>
-          </form>
-        </div>
+    </section>
 
-      </section>
-
-      <!-- Tabs Section -->
+    <!-- Tabs Section -->
       <section id="tabs" class="tabs section">
 
         <!-- Antes y Después Section -->
@@ -465,18 +912,18 @@
                   <div class="tab-pane active show" id="tabs-tab-1">
                     <div class="row align-items-center">
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Antes Uñas Encarnadas" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-2.jpg" alt="Caso de uñas encarnadas antes del tratamiento"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Antes del tratamiento</p>
                       </div>
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Después Uñas Encarnadas" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-6.jpg" alt="Caso de uñas encarnadas después del tratamiento"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Después del tratamiento</p>
                       </div>
                       <div class="col-12 mt-3">
-                        <p>Tratamiento profesional que elimina el dolor y previene recurrencias, cuidando la salud de
-                          tus uñas.</p>
+                        <p><strong>Resultado:</strong> liberación de dolor en la primera sesión y corrección definitiva con
+                          ortonixia en 4 semanas.</p>
                       </div>
                     </div>
                   </div>
@@ -485,17 +932,18 @@
                   <div class="tab-pane" id="tabs-tab-2">
                     <div class="row align-items-center">
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Antes Callosidades" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-4.jpg" alt="Callosidades severas antes de tratamiento"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Antes del tratamiento</p>
                       </div>
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Después Callosidades" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-5.jpg" alt="Pies suaves después de tratamiento para callos"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Después del tratamiento</p>
                       </div>
                       <div class="col-12 mt-3">
-                        <p>Remoción de callos y durezas con hidratación, dejando tus pies suaves y saludables.</p>
+                        <p><strong>Resultado:</strong> reducción del 90% de durezas y dolor, hidratación profunda y
+                          recomendaciones de calzado.</p>
                       </div>
                     </div>
                   </div>
@@ -504,18 +952,18 @@
                   <div class="tab-pane" id="tabs-tab-3">
                     <div class="row align-items-center">
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Antes Tratamiento Láser" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-7.jpg" alt="Onicomicosis antes del tratamiento láser"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Antes del tratamiento</p>
                       </div>
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Después Tratamiento Láser" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-8.jpg" alt="Onicomicosis después del tratamiento láser"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Después del tratamiento</p>
                       </div>
                       <div class="col-12 mt-3">
-                        <p>El láser elimina hongos de forma indolora y segura, con resultados visibles en pocas
-                          sesiones.</p>
+                        <p><strong>Resultado:</strong> uñas transparentes, libres de hongos y crecimiento uniforme tras 5
+                          sesiones láser.</p>
                       </div>
                     </div>
                   </div>
@@ -524,18 +972,18 @@
                   <div class="tab-pane" id="tabs-tab-4">
                     <div class="row align-items-center">
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Antes Pie Diabético" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-1.jpg" alt="Pie diabético antes del protocolo especializado"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Antes del tratamiento</p>
                       </div>
                       <div class="col-lg-6 text-center">
-                        <img src="assets/img/og-podoexpress.jpg" alt="Después Pie Diabético" class="img-fluid mb-2"
-                          width="300" height="200">
+                        <img src="assets/img/gallery/gallery-3.jpg" alt="Piel regenerada tras protocolo de pie diabético"
+                          class="img-fluid mb-2 rounded-3" width="300" height="200" loading="lazy">
                         <p class="fst-italic">Después del tratamiento</p>
                       </div>
                       <div class="col-12 mt-3">
-                        <p>Prevención de lesiones y cuidado profesional, garantizando pies saludables y seguros para
-                          pacientes diabéticos.</p>
+                        <p><strong>Resultado:</strong> piel regenerada, sin grietas ni infección y seguimiento mensual para
+                          evitar complicaciones.</p>
                       </div>
                     </div>
                   </div>
@@ -576,63 +1024,91 @@
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
+                    <div class="testimonial-rating" aria-label="Calificación cinco estrellas">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
                     <p><i class="bi bi-quote quote-icon-left"></i>
-                      <span>Excelente atención, mi tratamiento de uñas encarnadas fue rápido y sin dolor. Recomiendo
-                        100% Podoexpress.</span>
+                      <span>Me liberaron de una uña encarnada que venía arrastrando por meses. La técnica fue indolora y
+                        salí caminando como si nada.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/og-podoexpress.jpg" class="testimonial-img" alt="Testimonio paciente 1">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img"
+                      alt="Paciente sonriente tras tratamiento de uñas encarnadas" loading="lazy">
                     <h3>María López</h3>
-                    <h4>Paciente</h4>
+                    <h4>Tratamiento de uñas encarnadas</h4>
                   </div>
                 </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
+                    <div class="testimonial-rating" aria-label="Calificación cinco estrellas">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
                     <p><i class="bi bi-quote quote-icon-left"></i>
-                      <span>Profesionales y amables. Mi tratamiento láser para hongos fue efectivo y seguro.</span>
+                      <span>El láser antimicótico fue un game changer. En cuatro sesiones mis uñas recuperaron el color y
+                        nunca dejaron de verse presentables.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/og-podoexpress.jpg" class="testimonial-img" alt="Testimonio paciente 2">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img"
+                      alt="Paciente satisfecho tras tratamiento láser" loading="lazy">
                     <h3>Carlos Ramírez</h3>
-                    <h4>Paciente</h4>
+                    <h4>Tratamiento láser antimicótico</h4>
                   </div>
                 </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
+                    <div class="testimonial-rating" aria-label="Calificación cinco estrellas">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
                     <p><i class="bi bi-quote quote-icon-left"></i>
-                      <span>Los callos desaparecieron y mis pies quedaron suaves. Muy recomendable la clínica.</span>
+                      <span>Desde la primera visita sentí mis pies ligeros. El spa podológico y la educación para cuidar mi
+                        postura fueron el combo perfecto.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/og-podoexpress.jpg" class="testimonial-img" alt="Testimonio paciente 3">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img"
+                      alt="Paciente sonriente luego de un spa podológico" loading="lazy">
                     <h3>Lucía Fernández</h3>
-                    <h4>Paciente</h4>
+                    <h4>SPA podológico premium</h4>
                   </div>
                 </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
+                    <div class="testimonial-rating" aria-label="Calificación cinco estrellas">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
                     <p><i class="bi bi-quote quote-icon-left"></i>
-                      <span>Excelente seguimiento para pie diabético, atención muy personalizada y profesional.</span>
+                      <span>Controlaron mi pie diabético con mucha paciencia. Cada visita incluye revisión neurológica y me
+                        ayudan a monitorear en casa.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/og-podoexpress.jpg" class="testimonial-img" alt="Testimonio paciente 4">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img"
+                      alt="Paciente adulto mayor atendido en Podoexpress" loading="lazy">
                     <h3>José Martínez</h3>
-                    <h4>Paciente</h4>
+                    <h4>Programa integral para pie diabético</h4>
                   </div>
                 </div>
 
                 <div class="swiper-slide">
                   <div class="testimonial-item">
+                    <div class="testimonial-rating" aria-label="Calificación cinco estrellas">
+                      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    </div>
                     <p><i class="bi bi-quote quote-icon-left"></i>
-                      <span>Mi experiencia fue increíble, los resultados del tratamiento integral superaron mis
-                        expectativas.</span>
+                      <span>La experiencia completa es de lujo: aromaterapia, música y especialistas que realmente
+                        escuchan. Mis pies y mi ánimo cambiaron por completo.</span>
                       <i class="bi bi-quote quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/og-podoexpress.jpg" class="testimonial-img" alt="Testimonio paciente 5">
+                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img"
+                      alt="Paciente disfrutando de la experiencia Podoexpress" loading="lazy">
                     <h3>Andrea Gómez</h3>
-                    <h4>Paciente</h4>
+                    <h4>Plan bienestar mensual</h4>
                   </div>
                 </div>
 
@@ -643,98 +1119,49 @@
 
         </section>
         <!-- /Testimonials Section -->
-        <!-- 
-        !-- Doctors Section --
-        <section id="doctors" class="doctors section light-background">
 
-          Section Title --
+        <!-- Insights Section -->
+        <section id="insights" class="insights section light-background">
           <div class="container section-title" data-aos="fade-up">
-            <h2>Doctors</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-          </div> End Section Title --
-
-          <div class="container">
-
-            <div class="row gy-4">
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                <div class="team-member">
-                  <div class="member-img">
-                    <img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Walter White</h4>
-                    <span>Chief Medical Officer</span>
-                  </div>
-                </div>
-              </div>End Team Member --
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                <div class="team-member">
-                  <div class="member-img">
-                    <img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Anesthesiologist</span>
-                  </div>
-                </div>
-              </div> End Team Member --
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                <div class="team-member">
-                  <div class="member-img">
-                    <img src="assets/img/doctors/doctors-3.jpg" class="img-fluid" alt="">
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>William Anderson</h4>
-                    <span>Cardiology</span>
-                  </div>
-                </div>
-              </div><End Team Member --
-
-              <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-                <div class="team-member">
-                  <div class="member-img">
-                    <img src="assets/img/doctors/doctors-4.jpg" class="img-fluid" alt="">
-                    <div class="social">
-                      <a href=""><i class="bi bi-twitter-x"></i></a>
-                      <a href=""><i class="bi bi-facebook"></i></a>
-                      <a href=""><i class="bi bi-instagram"></i></a>
-                      <a href=""><i class="bi bi-linkedin"></i></a>
-                    </div>
-                  </div>
-                  <div class="member-info">
-                    <h4>Amanda Jepson</h4>
-                    <span>Neurosurgeon</span>
-                  </div>
-                </div>
-              </div> End Team Member --
-
-            </div>
-
+            <h2>Blog &amp; recursos para tus pies</h2>
+            <p>Mantente al día con las tendencias, cuidados y tips que recomendamos a nuestros pacientes VIP.</p>
           </div>
 
+          <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <article class="insight-card h-100">
+                  <span class="insight-category">Prevención</span>
+                  <h3><a href="service-details.html#diabetico">Guía para cuidar el pie diabético sin salir de casa</a></h3>
+                  <p>Checklist descargable con alertas tempranas, hábitos diarios y recomendaciones de calzado para evitar
+                    complicaciones.</p>
+                  <a href="service-details.html#diabetico" class="read-more">Leer más <i class="bi bi-arrow-right"></i></a>
+                </article>
+              </div>
+
+              <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <article class="insight-card h-100">
+                  <span class="insight-category">Tendencias</span>
+                  <h3><a href="service-details.html#laser">¿Cómo funciona el láser antimicótico y por qué es superior?</a></h3>
+                  <p>Explicamos la tecnología, los cuidados previos y el plan de sesiones para lograr uñas libres de hongos en
+                    tiempo récord.</p>
+                  <a href="service-details.html#laser" class="read-more">Descubrir protocolo <i class="bi bi-arrow-right"></i></a>
+                </article>
+              </div>
+
+              <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <article class="insight-card h-100">
+                  <span class="insight-category">Lifestyle</span>
+                  <h3><a href="spp.html">Rutina de spa podológico en 15 minutos</a></h3>
+                  <p>Te compartimos nuestra rutina favorita para recuperar la suavidad y energía de tus pies entre visitas a la
+                    clínica.</p>
+                  <a href="spp.html" class="read-more">Ir a la guía <i class="bi bi-arrow-right"></i></a>
+                </article>
+              </div>
+            </div>
+          </div>
         </section>
-         /Doctors Section -- -->
+        
         <!-- Gallery Section -->
         <section id="gallery" class="gallery section">
 
@@ -780,28 +1207,28 @@
               <div class="swiper-wrapper align-items-center">
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Cabina podológica Podoexpress" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Tratamiento de uñas encarnadas en proceso" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Resultados de protocolo para pie diabético" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Tratamiento de callosidades" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Pies suaves después de podología" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Resultado de uñas encarnadas corregidas" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Antes del tratamiento láser antimicótico" loading="lazy"></a></div>
                 <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                     href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg"
-                      class="img-fluid" alt=""></a></div>
+                      class="img-fluid" alt="Uñas saludables tras tratamiento láser" loading="lazy"></a></div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
@@ -809,6 +1236,40 @@
           </div>
 
         </section><!-- /Gallery Section -->
+
+
+        <!-- SEO Copy Section -->
+        <section id="seo" class="seo-copy section">
+          <div class="container">
+            <div class="row gy-5 align-items-start">
+              <div class="col-lg-7" data-aos="fade-up">
+                <h2>Podología en CDMX: calidad médica y experiencia spa en un solo lugar</h2>
+                <p>Podoexpress nació en la Roma Norte con la misión de brindar tratamientos podológicos confiables, seguros y
+                  placenteros. Nuestro equipo combina metodologías clínicas con experiencias de bienestar para atender a
+                  pacientes con uñas encarnadas, callosidades, pie diabético, fascitis plantar y deportistas que buscan
+                  optimizar su rendimiento. Trabajamos con protocolos avalados por COFEPRIS, esterilización de instrumentales y
+                  productos dermocosméticos hipoalergénicos.</p>
+                <p>Si buscas un <strong>podólogo en CDMX</strong> que supere a la competencia, agenda una valoración en
+                  Podoexpress. Atendemos en Medellín 27 y Medellín 32, a pasos del corredor gastronómico de la Roma. Contamos con
+                  estacionamiento aliado, horarios extendidos y paquetes corporativos.</p>
+              </div>
+              <div class="col-lg-5" data-aos="fade-up" data-aos-delay="100">
+                <div class="seo-highlights">
+                  <h3>Especialistas en:</h3>
+                  <ul>
+                    <li>Podología clínica y preventiva en CDMX</li>
+                    <li>Tratamientos láser para hongos en uñas</li>
+                    <li>Cuidado del pie diabético y curación de úlceras</li>
+                    <li>Corrección de postura y biomecánica del pie</li>
+                    <li>Planes wellness para empresas, gimnasios y spas</li>
+                  </ul>
+                  <p class="seo-note">¿Vienes de <em>Podesur</em> o <em>Feethaus</em>? Compártenos tu recibo y mejora tu experiencia con
+                    beneficios exclusivos en tu primera cita.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
         <!-- Faq Section -->
@@ -924,7 +1385,7 @@
               <!-- Durango Branch -->
               <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <h3>Calle Medellín 32</h3>
-                <iframe style="border:0; width: 100%; height: 370px;"
+                <iframe style="border:0; width: 100%; height: 370px;" title="Mapa Podoexpress Medellín 32"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.45273731325!2d-99.19198031284182!3d19.4183165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff84a5aba957%3A0x2aa28d870eae7aad!2sPodoexpress!5e0!3m2!1ses-419!2smx!4v1731567203732!5m2!1ses-419!2smx"
                   frameborder="0" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -933,7 +1394,7 @@
               <!-- Medellín Branch -->
               <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="200">
                 <h3>Calle Medellín 27</h3>
-                <iframe style="border:0; width: 100%; height: 370px;"
+                <iframe style="border:0; width: 100%; height: 370px;" title="Mapa Podoexpress Medellín 27"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.45273731325!2d-99.19198031284182!3d19.4183165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffca8fbf4247%3A0xb64c857d0a4a7a24!2sPodoexpress!5e0!3m2!1ses-419!2smx!4v1731567252293!5m2!1ses-419!2smx"
                   frameborder="0" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -953,10 +1414,14 @@
                         data-aos-delay="200">
                         <h3 id="redesh3">Redes Sociales</h3>
                         <div class="social-icons">
-                          <a href="https://www.facebook.com" target="_blank" class="bi bi-facebook"></a>
-                          <a href="https://www.instagram.com" target="_blank" class="bi bi-instagram"></a>
-                          <a href="https://www.tiktok.com" target="_blank" class="bi bi-tiktok"></a>
-                          <a href="https://wa.me/155895548855" target="_blank" class="bi bi-whatsapp"></a>
+                          <a href="https://www.facebook.com/podoexpress" target="_blank" rel="noopener"
+                            aria-label="Facebook Podoexpress" class="bi bi-facebook"></a>
+                          <a href="https://www.instagram.com/podoexpress" target="_blank" rel="noopener"
+                            aria-label="Instagram Podoexpress" class="bi bi-instagram"></a>
+                          <a href="https://www.tiktok.com/@podoexpress" target="_blank" rel="noopener"
+                            aria-label="TikTok Podoexpress" class="bi bi-tiktok"></a>
+                          <a href="https://wa.me/5215634224876" target="_blank" rel="noopener"
+                            aria-label="WhatsApp Podoexpress" class="bi bi-whatsapp"></a>
                         </div>
                       </div>
                     </div> <!-- End Info Item -->
@@ -966,7 +1431,7 @@
                         data-aos="fade-up" data-aos-delay="300">
                         <i class="bi bi-telephone"></i>
                         <h3>Llámanos</h3>
-                        <p>+52 55 1234 5678</p>
+                        <p><a href="tel:+525634224876">+52 56 3422 4876</a></p>
                       </div>
                     </div><!-- End Info Item -->
 
@@ -975,7 +1440,7 @@
                         data-aos="fade-up" data-aos-delay="400">
                         <i class="bi bi-envelope"></i>
                         <h3>Escríbenos</h3>
-                        <p>contacto@podoexpress.com</p>
+                        <p><a href="mailto:contacto@podoexpress.com">contacto@podoexpress.com</a></p>
                       </div>
                     </div><!-- End Info Item -->
 
@@ -1006,12 +1471,12 @@
                           required=""></textarea>
                       </div>
 
-                      <div class="col-md-12 text-center">
+                      <div class="col-md-12 text-center text-md-start">
                         <div class="loading">Enviando...</div>
                         <div class="error-message"></div>
                         <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
 
-                        <button type="submit">Enviar Mensaje</button>
+                        <button type="submit" class="btn btn-get-started">Enviar mensaje</button>
                       </div>
 
                     </div>
@@ -1038,14 +1503,14 @@
           <div class="footer-contact pt-3">
             <p>Calle Medellín 32</p>
             <p>Ciudad de México, CDMX 06700</p>
-            <p class="mt-3"><strong>Teléfono:</strong> <span>+52 55 1234 5678</span></p>
-            <p><strong>Email:</strong> <span>contacto@podoexpress.com</span></p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span><a href="tel:+525634224876">+52 56 3422 4876</a></span></p>
+            <p><strong>Email:</strong> <span><a href="mailto:contacto@podoexpress.com">contacto@podoexpress.com</a></span></p>
           </div>
           <div class="social-links d-flex mt-4">
-            <a href="https://www.facebook.com/podoexpress" target="_blank"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/podoexpress" target="_blank"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.tiktok.com/@podoexpress" target="_blank"><i class="bi bi-tiktok"></i></a>
-            <a href="https://wa.me/5215512345678" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.facebook.com/podoexpress" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/podoexpress" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.tiktok.com/@podoexpress" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
+            <a href="https://wa.me/5215634224876" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
           </div>
         </div><!-- End Footer About -->
 
@@ -1065,11 +1530,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Servicios</h4>
           <ul>
-            <li><a href="#service-integral">Servicio Integral</a></li>
-            <li><a href="#service-unas">Uñas Encarnadas</a></li>
-            <li><a href="#service-laser">Tratamiento Láser</a></li>
-            <li><a href="#service-callos">Callosidades</a></li>
-            <li><a href="#service-diabetico">Pie Diabético</a></li>
+            <li><a href="#services">Servicio Integral</a></li>
+            <li><a href="#services">Uñas Encarnadas</a></li>
+            <li><a href="#laser">Tratamiento Láser</a></li>
+            <li><a href="#services">Callosidades</a></li>
+            <li><a href="#services">Pie Diabético</a></li>
           </ul>
         </div>
 
@@ -1077,11 +1542,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Información</h4>
           <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Política de Privacidad</a></li>
-            <li><a href="#">Términos de Servicio</a></li>
-            <li><a href="#">Soporte</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+            <li><a href="mailto:contacto@podoexpress.com?subject=Aviso%20de%20privacidad">Solicitar aviso de privacidad</a></li>
+            <li><a href="#appointment">Agenda tu cita</a></li>
+            <li><a href="#contact">Soporte al paciente</a></li>
+            <li><a href="#insights">Blog</a></li>
           </ul>
         </div>
 
@@ -1089,11 +1554,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Recursos</h4>
           <ul>
-            <li><a href="#">Artículos</a></li>
-            <li><a href="#">Galería</a></li>
-            <li><a href="#">Testimonios</a></li>
-            <li><a href="#">Promociones</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#insights">Artículos</a></li>
+            <li><a href="#gallery">Galería</a></li>
+            <li><a href="#testimonials">Testimonios</a></li>
+            <li><a href="#pricing">Promociones y paquetes</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
 
